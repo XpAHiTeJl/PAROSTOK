@@ -1,0 +1,47 @@
+@import url("./styles/variables.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+#app {
+    color: var(--secondary-text-color);
+}
+
+.title {
+    font-family: var(--ff-montserrat);
+    color:  var(--primary-text-color) ;
+    font-size: var(--fs-l);
+}
+
+.card-title ,.list-item {
+    color: var(--secondary-text-color );
+    font-size: var(--fs-xs);
+    font-family: var(--ff-montserrat);
+}
+
+.nav-item {
+    font-size: var(--fs-s);
+    font-family: var(--ff-montserrat-medium);
+}
+
+.btn-filter {
+    background: var(--main-bg);
+    color: var(--third-text-color);
+}
+
+.btn-buy {
+    background: var(--green-bg);
+    padding: calc(var(--padding-xs) - 2px);
+}

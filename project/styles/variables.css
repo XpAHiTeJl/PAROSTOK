@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "montserrat";
+    src: url("../public/fonts/Montserrat/static/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: "montserrat-medium";
+    src: url("../public/fonts/Montserrat/static/Montserrat-Medium.ttf");
+}
+
+@font-face {
+    font-family: "open-sans";
+    src: url("../public/fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "open-sans-600";
+    src: url("../public/fonts/Open_Sans/static/OpenSans/OpenSans-SemiBold.ttf");
+}
+
+:root {
+    /* PADDING */
+    --padding-xxxl : 128px;
+    --padding-xxl : 60px;
+    --padding-xl : 50px;
+    --padding-l : 40px;
+    --padding-m : 30px;
+    --padding-s : 20px;
+    --padding-xs : 10px; 
+
+    /* MARGIN */
+    --margin-xxxl : 128px;
+    --margin-xxl : 60px;
+    --margin-xl : 50px;
+    --margin-l : 40px;
+    --margin-m : 30px;
+    --margin-s : 20px;
+    --margin-xs : 10px; 
+
+    /* FONT_SIZE */
+    --fs-xl : 70px;
+    --fs-l : 30px;
+    --fs-m : 20px;
+    --fs-s : 18px;
+    --fs-xs : 16px; 
+    --fs-xxs : 14px; 
+
+    /* FONT_FAMILY */
+    --ff-montserrat : 'montserrat';
+    --ff-montserrat-medium : 'montserrat-medium';
+    --ff-open-sans : 'open-sans';
+    --ff-open-sans-600 : 'open-sans-600';
+
+    /* TEXT_COLOR */
+    --primary-text-color : rgb(0, 0, 0);
+    --secondary-text-color :  rgb(23, 23, 23) ;
+    --third-text-color :  rgb(255, 255, 255) ;
+    
+    /* BACKGROUND */
+    --main-bg : rgb(23, 23, 23);
+    --dark-grey-bg : rgba(0, 0, 0,0.74);
+    --light-grey-bg : rgba(0, 0, 0,0.37);
+    --green-bg :rgb(115, 145, 125);
+    --semi-dark-bg :rgb(49, 49, 49);
+    --yellow-bg : rgb(235, 208, 113);
+    --white-bg : rgb(255, 255, 255);
+    --red-bg : rgb(210, 126, 126);
+    --dark-red-bg : rgb(168, 98, 98);
+}

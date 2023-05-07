@@ -1,11 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Product</title>
-    </head>
-    <body>
-        <script src="../main.js"></script>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Product</title>
+  </head>
+  <body>
+    <div id="app">
+      <section class="header">
+        <div class="header-header">
+          <div class="header-title">
+            <span class="header-title_name">Parostok</span>
+          </div>
+          <div class="header-navigation">
+            <nav class="header-nav">
+              <a href="#">Главная</a>
+              <a href="#">Товары и услуги</a>
+              <a href="#">О нас</a>
+              <a href="#">Контакты</a>
+            </nav>
+          </div>
+        </div>
+        <div class="header-search_container">
+          <div class="header-search">
+            <input type="search" />
+            <img src="../public/icons/searcher.png" alt="" />
+          </div>
+          <div class="header-buy_btn">
+            <button class="header-btn">
+              <img src="../public/icons/buy-btn.png" alt="" />
+            </button>
+            <img
+              class="number_btn"
+              src="../public/icons/Number-btn.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="header-title_category">
+          <div>
+            <img src="../public/icons/arrow.png" alt="" />
+          </div>
+
+          <span
+            >Главная / Декоративные кустарники / Самшиты / Самшит
+            Вечнозеленый</span
+          >
+        </div>
+      </section>
+      <sectionc class="main">
+        <div class="main-container">
+            <div class="main-product">
+                <div class="main-img">
+                    <img class="main-product_photo" src="../public/images/card.png" alt="">
+                </div>
+                <div class="main-photo_aside">
+                    <img class="main-photo_aside-img" src="../public/images/card.png" alt="">
+                    <img class="main-photo_aside-img" src="../public/images/card.png" alt="">
+                    <img class="main-photo_aside-img" src="../public/images/card.png" alt="">
+                    
+                </div>
+            </div>
+            <div class="main-title_box">
+                <div class="main-title_product">
+                    <span>Самшит Вечнозеленый</span>
+                    <div class="main-subtitle">
+                        <p class="main-stock">Нет в наличии</p>
+                        <p class="main-number_product">Код:00095</p>
+                    </div>
+                </div>
+                <div class="main-amount">
+                    <img src="../public/icons/-.png" alt="">
+                    <p>1</p>
+                    <img src="../public/icons/+.png" alt="">
+                </div>
+                <div class="main-price">
+                    <p>70 грн</p>
+                </div>
+                <div class="main-btn_buy">
+                    <button>Купить</button>
+                </div>
+                <div class="main-description">
+                    <img class="main-discription_arrow" 
+                    src="../public/icons/arrow-discription.png" alt="">
+                    <span>Описание</span>
+                    <div class="main-line"></div>
+                </div>
+                <div class="main-description">
+                    <img class="main-discription_arrow" 
+                    src="../public/icons/arrow-discription.png" alt="">
+                    <span>Оплата и доставка</span>
+                    <div class="main-line"></div>
+                </div>
+                <div class="main-description">
+                    <img class="main-discription_arrow" 
+                    src="../public/icons/arrow-discription.png" alt="">
+                    <span>Возврат и обмен</span>
+                    <div class="main-line"></div>
+                </div>
+                
+
+            </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="../main.js"></script>
+  </body>
 </html>
